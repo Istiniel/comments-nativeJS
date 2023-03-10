@@ -1,6 +1,6 @@
 # Comments/Notes block
 
-### \\Deploy\https://istiniel.github.io/comments-nativeJS/\\
+### [Deploy link](https://istiniel.github.io/comments-nativeJS)
 
 ### Native JS + SCSS
 
