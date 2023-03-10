@@ -1,12 +1,14 @@
 # Comments/Notes block
 
+### \\Deploy\https://istiniel.github.io/comments-nativeJS/\\
+
 ### Native JS + SCSS
 
 :star: Сохраните ваши заметки в отдельном блоке
 :star: Укажите дату
 :star: Отсортируйте по рейтингу/дате
 
-![preview](https://github.com/Istiniel/comments-nativeJS/tree/main/src/images/user_preview.png)
+![preview](https://github.com/Istiniel/comments-nativeJS/tree/main/src/images/readme_preview.png)
 
 ### Пример используемого в данном приложении кода (JS native)
 
