@@ -22,8 +22,7 @@ button {
 
   color: #ffffff;
 
-  &:hover,
-  &:active {
+  @include onHover() {
     background-color: #6dd862;
     box-shadow: inset 0px 0px 0px 2px #6dd862;
 
@@ -35,8 +34,7 @@ button {
   background-color: transparent;
   color: $primary-black;
 
-  &:hover,
-  &:active {
+  @include onHover() {
     background-color: $button-green !important;
     box-shadow: inset 0px 0px 0px 2px $button-green !important;
 
@@ -51,8 +49,7 @@ button {
 
   color: #ffffff;
 
-  &:hover,
-  &:active {
+  @include onHover() {
     background-color: $button-gray;
     box-shadow: inset 0px 0px 0px 2px $button-gray;
 
@@ -64,8 +61,7 @@ button {
   background-color: transparent;
   color: $primary-black;
 
-  &:hover,
-  &:active {
+  @include onHover() {
     background-color: $button-red !important;
     box-shadow: inset 0px 0px 0px 2px $button-red !important;
 
@@ -80,8 +76,7 @@ button {
 
   color: #ffffff;
 
-  &:hover,
-  &:active {
+  @include onHover() {
     background-color: $button-red;
     box-shadow: inset 0px 0px 0px 2px $button-red;
 
@@ -93,8 +88,7 @@ button {
   background-color: transparent;
   color: $primary-black;
 
-  &:hover,
-  &:active {
+  @include onHover() {
     background-color: $button-gray !important;
     box-shadow: inset 0px 0px 0px 2px $button-gray !important;
 
@@ -109,8 +103,7 @@ button {
 
   color: #ffffff;
 
-  &:hover,
-  &:active {
+  @include onHover() {
     background-color: $button-red;
     box-shadow: inset 0px 0px 0px 2px $button-red;
 
@@ -122,8 +115,7 @@ button {
   background-color: transparent;
   color: $button-white;
 
-  &:hover,
-  &:active {
+  @include onHover() {
     background-color: #474747 !important;
     box-shadow: inset 0px 0px 0px 2px $button-white !important;
 

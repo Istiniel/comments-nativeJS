@@ -86,7 +86,9 @@ input::-ms-clear {
 
 // Make cursor pointer
 button {
-  cursor: pointer;
+  @media (hover: hover) {
+    cursor: pointer;
+  }
 }
 
 // Set core body defaults

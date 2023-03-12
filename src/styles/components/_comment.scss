@@ -35,10 +35,8 @@
   width: 20px;
   height: 20px;
 
-  cursor: pointer;
-
-  &:hover,
-  &:active {
+  @include onHover() {
+    cursor: pointer;
     filter: brightness(0) saturate(100%) invert(76%) sepia(82%) saturate(4948%)
       hue-rotate(315deg) brightness(94%) contrast(121%);
   }
@@ -48,10 +46,8 @@
   width: 20px;
   height: 20px;
 
-  cursor: pointer;
-
-  &:hover,
-  &:active {
+  @include onHover() {
+    cursor: pointer;
     filter: brightness(0) saturate(100%) invert(76%) sepia(82%) saturate(4948%)
       hue-rotate(315deg) brightness(94%) contrast(121%);
   }

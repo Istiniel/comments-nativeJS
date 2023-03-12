@@ -1,6 +1,6 @@
 import './styles/App.scss';
 
-// class for create a comment
+// class for creating a comment
 import { Comment } from './CommentCreator';
 
 // current Date in (yyyy-mm-dd) format
